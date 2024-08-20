@@ -1,7 +1,7 @@
 node{
     def MVN= tool name: "maven3.9.4"
     stage('Repo Clone){
-        git branch: 'main', url: 'https://github.com/mkushimo/docker_local.git'
+        git branch: 'main', url: https://github.com/Seyiades/learning-1.git
     }
     stage('Build Artifact'){
         sh "echo Build the code"
